@@ -27,6 +27,11 @@ nav a{
 
 }
 
+nav a:hover{
+    color: rgb(131, 96, 30);
+    text-decoration: underline;
+}
+
 .produtos{
     width: 940px;
     margin: 0 auto;
@@ -41,8 +46,21 @@ nav a{
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
+.produtos li:hover{
+    border-color:rgb(131, 96, 30) ;
+}
+
+.produtos li:active{
+    border-color:rgba(76, 138, 52, 0.911) ;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
 .produtos h2{
     font-size: 30px;
     font-weight: bold;
@@ -56,4 +74,15 @@ nav a{
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background-image: url("C:/Users/ACR1JVL/Documents/Alura/Front-end/HTML5-CSS3-Parte1/Barbearia_Alura/img/bg.jpg");
+    padding: 40px 0;
+}
+.copyright{
+    color: aliceblue;
+    font-size: 13px;
+    margin-top: 20px;
 }
